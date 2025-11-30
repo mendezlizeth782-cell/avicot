@@ -4,7 +4,7 @@
     "slug": "avicot",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/avicot.png",
+    "icon": "./assets/images/icon.png",
     "scheme": "avicot",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,9 +14,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/avicot.png",
-        "backgroundImage": "./assets/images/avicot.png",
-        "monochromeImage": "./assets/images/avicot.png"
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
@@ -39,7 +39,8 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
